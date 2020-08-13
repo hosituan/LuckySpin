@@ -14,6 +14,7 @@ import SwiftMessages
 class ViewController: UIViewController, SpinWheelControlDataSource, SpinWheelControlDelegate {
     
     
+    
 
     @IBOutlet var spinWheelControl: SpinWheelControl!
     let colors = [#colorLiteral(red: 0.9420027733, green: 0.7658308744, blue: 0.136086911, alpha: 1),
