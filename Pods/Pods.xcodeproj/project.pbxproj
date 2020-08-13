@@ -1,0 +1,1484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0014CCA4BCD59DF096EAF80A084EFAB6 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1299842B6B04677306FF2ED214FEF0 /* UIViewController+Utils.swift */; };
+		009F22DCED9ADADDCC158409FE8C714B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04657D163F0C90FC232C3C72DA6D8EB1 /* BaseView.swift */; };
+		01F83BDA37A1B54686FBAE19030D9D0E /* SpinWheelControlDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF618B8D5D167C4F1A4C8042F20A11B /* SpinWheelControlDataSource.swift */; };
+		01F864DC2CB32686D594D91355A67613 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		02234EF4D386774C53993BFCFA6F2839 /* SwiftMessages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */; };
+		0258CD3FCD5A08380C732108FACD31EC /* ThemifyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB07B2A2D4F8E5E5949CB2C23377DF4 /* ThemifyIcon.swift */; };
+		042C4EC9EE12CD6182B53127B8AAE22E /* errorIconLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B05AB32A8810D2C5ABC0939D5EC1F0 /* errorIconLight@2x.png */; };
+		04CA983FAECC569B52472CC21E42D0F3 /* UIEdgeInsets+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F4769A6F9982E6CDF03641B09565B1 /* UIEdgeInsets+Utils.swift */; };
+		04F155D910A92B5C7BEF5DCDA6A17956 /* successIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB71BFA4E9CC336AFF7275AD1A539DD /* successIconSubtle@2x.png */; };
+		050403567AD3D3D49E76B0920436CF38 /* AccessibleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034E809DFBBD6D7449433F581821DFD /* AccessibleMessage.swift */; };
+		0638B27AAC33966B15129FE58E56D66C /* errorIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA320B7A982DC9A6EEEB5E6CFE31FA6 /* errorIconSubtle.png */; };
+		073D52B4F0BF06365DD903C8BBC6CC3D /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAACF2ED8301C1FC238C890C043E54 /* SwiftIconLabel.swift */; };
+		0751BBE16290E4A0A661F0A5FE83B8A1 /* SwiftMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CF064B3D8D6282AB1D9E1E95336724 /* SwiftMessages-dummy.m */; };
+		0985F2F7AB7CF7B0D1423894FF30EC07 /* Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D071BB201F0B80939A21921DD64CB2E2 /* Octicon.swift */; };
+		0D44527B0F9AF61327C0432B396F8063 /* successIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4869EA4A929E2A27F9D9E1C0D7C48CA /* successIcon.png */; };
+		0F2E9A309881123E2C28F67DCAFCA28C /* CenteredView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5454D8D8C797B04754D3C69A11E66ABB /* CenteredView.xib */; };
+		11DCB65A6D716DC7205C4B52231C46F0 /* SmoothButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF71C1C8E131AA5FDE6CFD6ED3FAF662 /* SmoothButton-dummy.m */; };
+		13120C8D943C52EA79A2598772EE98B3 /* IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9290CB1AB3EF258CBDBBB8344F055C0A /* IonIcons.swift */; };
+		15C27F3D7ABD0F03D9572E0BCFB00DB9 /* MaskingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F8C964B895E896299C1E3E9A529C1 /* MaskingView.swift */; };
+		19AFA91AB2454A8C915F972D51596A2B /* PassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C97D2794971B1C906E7EA613ED0336 /* PassthroughView.swift */; };
+		1A9FB51C2A810A9A8606A43E83A77A56 /* SwiftMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DAAE28997F41817960A7FBF9B9DC49 /* SwiftMessages.swift */; };
+		2012E9D8CEA75686ACA58716CF99B0BB /* SpinWheelWedgeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAA7A5AB0C5EA9C09369E5B7986E3E /* SpinWheelWedgeShape.swift */; };
+		20CC1D0998042F56418BB775D16907EB /* TopBottomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2E1A5247EAA6C2DCC930318FB29CF /* TopBottomAnimation.swift */; };
+		21F540890FB78FA88968F802D63D64BA /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE4D7ACC50B073C4CD1ACAF950DCBD1 /* FontAwesome.swift */; };
+		224AD37734621C954F896C9937A25B24 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B096C9E14438C12A595CD75CB9411A4 /* Identifiable.swift */; };
+		240275F4A9A5785AC537E974499B2339 /* infoIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F875FDE47AF9ECF51BBB7F3884C9B2 /* infoIcon@3x.png */; };
+		2EE909BCCB6BDD9DBB50F008815E27E4 /* SpinWheelControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 642CB57373553972BFC2CA48E9952C86 /* SpinWheelControl-dummy.m */; };
+		3353D85387ADAEE658A6269674FBF581 /* Pods-LuckySpin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC0A9DD4EDCBFD1401C20448A29112B /* Pods-LuckySpin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		353837749C7BFE762872B4FA026623F2 /* errorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B21E04B4B4A35D51178C236EC187E /* errorIcon@2x.png */; };
+		362C02DD51D9FA86F5ADE3633906F5FC /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 274FD600CD8E1839BD6354F26A2C23B1 /* Ionicons.ttf */; };
+		36EA873966A7472D14343D53E5F85E0C /* infoIconLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 46436893CBD714A81004F087D95A9AF5 /* infoIconLight.png */; };
+		38FE360AA1DC6A82299F2A342F9CA4BE /* CALayer+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971750032E780AB288276C962EEFF0A /* CALayer+Utils.swift */; };
+		38FFDE50D01DF212C56D0C4F0E04C9D5 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9C4303E25424DA9B5218DB9B2563F /* MessageView.swift */; };
+		39127ADAFEEDA4EB7E84F9A0B4B5C63E /* infoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5384F58DB1667292B61A53503434198 /* infoIcon.png */; };
+		3AC1837968954017D697507D2D25C850 /* infoIconSubtle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 633C84B08051D773C47DA113259683B8 /* infoIconSubtle@3x.png */; };
+		40BE2A5EC104EF71082BD8E9077900BA /* errorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 337AFC97F89E7E684810155914EE8515 /* errorIcon.png */; };
+		41679E959CFE72785C1D201060124EB8 /* warningIconLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EEFEF45E7A298E68F8A0B03B8B2A32 /* warningIconLight@2x.png */; };
+		41781845BEE53B8EFE9C32166B880A2C /* successIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 305946C5D4A3A7C0C596F042BF9E9BBA /* successIconSubtle.png */; };
+		436884B6E496DB9969CF399B7D10B7C0 /* SmoothButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D7D34DEC32776686A3F7976BCFAC5E /* SmoothButton.xib */; };
+		453CEEE47822A61293380C15B9DEF19F /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B78E7ED5F3E1A308FC67B765AF0C57A /* octicons.ttf */; };
+		4647DAC2BCD3D4C58311B17BC3A7F6A9 /* errorIconLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 608F6626EA43DC378144A0EF2D0D8B34 /* errorIconLight.png */; };
+		4673B51319641338C5699045157FDD23 /* KeyboardTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13008A280FA3FD7ABD681AC7537CCABF /* KeyboardTrackingView.swift */; };
+		479E00C7F7917BB29CF1A1FEB0797E6C /* successIconLight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8BB8C0928971C5052D49CBD361B221 /* successIconLight@3x.png */; };
+		4F1448FA875EBB4DF4F47B1D30BD333B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEDC6466E5ADE1F4B8A3EB0B30651EB /* Error.swift */; };
+		572CDF968865EC694CC76FAAF3CB5ECF /* errorIconSubtle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8323FF6463D88E99EFB08B2E839CB0A0 /* errorIconSubtle@3x.png */; };
+		5B08BDF68B8691F6FEB1AC0FAFF2A2D1 /* MapIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F263F49C28B6442092BB0E6CFF9DA7C /* MapIcon.swift */; };
+		604FE407CEFB592DD2842FAA0D828A9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		684F9E975A43072CA99EAE73D9FE3D1C /* successIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAE8FB512ECD6B2EE89907DC27C3CF8 /* successIcon@2x.png */; };
+		6A644C90037F384950A0A2C8AD18E326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		6B244D06AF5DF7088463BA62DE2F8EDF /* Degrees+MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CE88EC432255E464D6DBDBFAE3FEC6 /* Degrees+MathMethods.swift */; };
+		6DEA65A4779CE53C8E9A9FC9581934F9 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F766AC41B17243065DC9E98EAF0FE /* Animator.swift */; };
+		6F236A5C175E221E6C2AC87338D0A0A9 /* infoIconLight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 517690B6CCE36CE36EA8C9260414C212 /* infoIconLight@3x.png */; };
+		73424B71272F8D0072094D2EF9A92090 /* SmoothButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F62F5D4B8779F1722A8401149614A6A /* SmoothButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F201F1BEC67207EFC6FC4D74B10FB8 /* BackgroundViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC61AA3F3F4A412ACF50065A344550 /* BackgroundViewable.swift */; };
+		762BBE23D3BFD07F5F7FDBB7C5465786 /* warningIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F657F45B3FE0C44C8D4DED6CD323ED /* warningIconSubtle.png */; };
+		77ABB139CDA45B4A50F65D6B4687320E /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AB5C6DA04A025094243D6797F59108E /* themify.ttf */; };
+		7DEFA5558371031E33A5BD042A922E81 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB1FA4AE9750F7D77C72E8AC901DE6 /* Presenter.swift */; };
+		8403B99BD65C0B8DD20D693FF779E79A /* TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3955FA2CDADB5F3A31BDC992298EFA7 /* TabView.xib */; };
+		8518BFEE35FC30A0B290F20E2072410E /* SpinWheelControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DCD14FDD68D186D80FDF59BEFBC423 /* SpinWheelControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D982335D1855A5843871C15BF8EA153 /* SpinWheelWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063FC7C4D7735B054AF41B5BEE69E382 /* SpinWheelWedge.swift */; };
+		90CE7E8942309F68BDE485545594C9F6 /* warningIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A6A8D23E41358937064BF57BE020FC /* warningIcon.png */; };
+		9794AFF20306D60C0C881651DAF3E870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		9BD7DBADAA34A41CEF156168A4459D4C /* SwiftMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CC8C3603A0ABB38F25632EF33138D9 /* SwiftMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D21DA6F3F4BAA65291EC762FAC43202 /* NSLayoutConstraint+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7035EB5DA30E2A04FF99708719C6D3D3 /* NSLayoutConstraint+Utils.swift */; };
+		9D9F49118CC893D88155C9AEB3745615 /* successIconLight.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7474F6872426E5596F7D7DA6857167 /* successIconLight.png */; };
+		9E52082AD0A5855439B4D0DCC09226F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		A007E4B6512EDA8F22BBBA5B0B804495 /* MarginAdjustable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1F4AC634AD508C10EDE041FA305772 /* MarginAdjustable.swift */; };
+		A0C20F8D585E2D28B76AC4C58A48648C /* infoIconLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A07021963E15F95FD9C9D0B482AC565F /* infoIconLight@2x.png */; };
+		A0E7171E10042FE2792166BE717F027B /* SpinWheelControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33754A2C677EB37D82BE0171474A6F10 /* SpinWheelControl.swift */; };
+		A205114942AF1D83357DD493D6C0C070 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C7AA6EEC0E567375756C1D2FC3E3B6 /* MaterialIcons-Regular.ttf */; };
+		A21F3A19E7DF88E6B7FAF2E1BBB69E07 /* SwiftMessagesSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2411B7CC0EEEF147867B38853789DC /* SwiftMessagesSegue.swift */; };
+		A362170D62F5CF9F5E55D062C38A1886 /* SpinWheelControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C0C5325348BE4CD10C037AEB740F9C /* SpinWheelControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CE28B3773767E5418E7ED3E8121244 /* StatusLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227CC82FC4B31122D862F0990F9018FC /* StatusLine.xib */; };
+		A46640A9EC1A5648D05C2AB00E77BBF1 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA3B2E37C576D731C81046CDAEF97 /* MessageView.xib */; };
+		AC0C04F3EB77110558307E5A6E99E275 /* warningIconLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 226D549A7742ADC31CA1F280DA5B9D1B /* warningIconLight.png */; };
+		B22472C802C65E99E49FE455A7320407 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD151B54E16DFAA109B3546CD7423264 /* CardView.xib */; };
+		B2C9327A5CB29B9E779F5C3236AD4C0B /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C03DF151192EC3A9C6361FF3F18EA1 /* FontLoader.swift */; };
+		B35339C20384D2C5B91D3BD09BCE38EE /* errorIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA7EBED144D699F7022EFAB83DEEB41 /* errorIcon@3x.png */; };
+		B462CEB00CBD652FC06DA46CC64DAD0F /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD87CFA37134B730ED9FBB823698714 /* SwiftIconFont.swift */; };
+		B4AFDA182EE8AEB3B7902BB380834657 /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9031DF83AE77F8A68FAE61D54EC864DE /* map-icons.ttf */; };
+		B5C2A0C3CB90F1FDB69DD1508FD14736 /* PassthroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E859BA014F644306FA9EAD9011FD74E /* PassthroughWindow.swift */; };
+		B5E8DCDCF06214BD5FA387D5A07F7FD1 /* infoIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B178FB66C76BB68B5CD35CF6CEA62D85 /* infoIconSubtle@2x.png */; };
+		B80C5C18D22FD630CAFDB1FE47E02C88 /* MarginAdjustable+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805218A391DADF39CC64297757ECEE6 /* MarginAdjustable+Animation.swift */; };
+		B96BBC05F0BDBA636294BEC195EFE60D /* Pods-LuckySpin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 028D246D5B52FA9AC72B08E237DA86E4 /* Pods-LuckySpin-dummy.m */; };
+		C1DD29D4BF22B0A5B832FA15FE45F96B /* successIconLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B186A3093027E7D8D1D159117B1CE1E /* successIconLight@2x.png */; };
+		C3713B43E40A7F0E8C3D0F8EA6A7509C /* NSBundle+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC2C61E4DB14389302EEEE4065A0D3 /* NSBundle+Utils.swift */; };
+		C417E9E07DC334E63D5AC574B7748955 /* PhysicsPanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636B0B5B5E685B6356F400B94822ABF /* PhysicsPanHandler.swift */; };
+		C4DCE65C540F0F527AEDE5069BC68CCE /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DD523D9204FAB210C74A894333F323 /* MaterialIcon.swift */; };
+		C51B276B572D6EB31A4B2F31E3905472 /* PhysicsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8BA8CD6C074B17CB3CAF15EA524C2B /* PhysicsAnimation.swift */; };
+		C6AD6A9850C20CDB08773E877731AC5D /* warningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE093CA52E825D19B23F11A986B1F54 /* warningIcon@2x.png */; };
+		C770C7A6A0281ABEC0A89119D6D6A51D /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808234CDA9933739C260A4749E91388 /* WindowViewController.swift */; };
+		C8618074D5FD374E38C57FA5F7AB31AF /* SmoothButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B50E5416BB435EDA0FD2CCB0E09EC8 /* SmoothButton.swift */; };
+		C86A66B834D6BDB3AE3B8BB7AC7DCE5D /* warningIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B240487102AD8285718AF10C63FC99 /* warningIcon@3x.png */; };
+		CAC0DBE840B1D9AEEA881E27D16BF587 /* errorIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 778496A54783F63F0D9DB267AEA5B09A /* errorIconSubtle@2x.png */; };
+		CF3D46DD536CF7A3DEDD445CC78DFF26 /* warningIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6FC4C25FDA5413473DC8A7A0CE0ADF /* warningIconSubtle@2x.png */; };
+		D1D2E9A21002BA3C2F8982F0A067D9FC /* SpinWheelControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158298131480C097DC9F06A18135AFD /* SpinWheelControlDelegate.swift */; };
+		D4DA9FCE48BF0EAC464CCD8FB7ADFC31 /* warningIconSubtle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D403725A41BFB2A9AB4E93960BFCFF /* warningIconSubtle@3x.png */; };
+		D8C89AD1525B719FDDD8FC39947C707A /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE0628D1307B1B1DBCA2D2613D381270 /* open-iconic.ttf */; };
+		E93D76D9EE36E44CEC7429F3B608BA34 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1922374CEC3077E21B2C8ACDCD88107F /* Weak.swift */; };
+		EB3263F5FBA5D99014FD653518681556 /* SpinWheelWedgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAB75FB3FEBDB76A6B7A1BD4E71D3B6 /* SpinWheelWedgeLabel.swift */; };
+		EE5352A0A89DB1FCA3FDB05D48F9D5F5 /* infoIconSubtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E517C4F65A815E1DA42785D6E2A3D04 /* infoIconSubtle.png */; };
+		F129C8182927385DC8D67094C446ED7F /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AC38D7C273FD7DB635946A6DC982A /* Iconic.swift */; };
+		F46BEA35B2CBED3523648682A8D9AAF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		F6FE097F1F281831DAF4213A2A0E2913 /* CornerRoundingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DD86E7407EEBD6BB509EA76CA2739 /* CornerRoundingView.swift */; };
+		F76DF8AD6FCA777865D5AE21D0DADD13 /* warningIconLight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC96001BA7C12732696C94349FF8AB3B /* warningIconLight@3x.png */; };
+		FA92088F8CC57494A25AB4580A165F51 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4859226D97321588B6D2B1873294D /* Theme.swift */; };
+		FBB9EE3D1C2AC505F9CB01C6BB1963CD /* infoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E8924134DC7309DAFF7025F329E89 /* infoIcon@2x.png */; };
+		FC819076A011BABA5DF539C3AFF157F1 /* successIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C13F0B259731008F8372014FB0EDFA /* successIcon@3x.png */; };
+		FCD75B79F79731ED2CB08BD0C8CBEB5B /* successIconSubtle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 718B7A5A07DCE5854400A3B7B16BAD3F /* successIconSubtle@3x.png */; };
+		FD48635606938C944A02861FD17CDBB5 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74DF93C86EB264AA524110F3B6B2FB19 /* FontAwesome.ttf */; };
+		FE10A5F0471A667554940C5803466238 /* errorIconLight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED22CCDE494281967612C5BFF5CCAAD /* errorIconLight@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5000D082E83119663D9097B036FA13C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F7787AA30FAE05D8D80B53025BAA89;
+			remoteInfo = SmoothButton;
+		};
+		A85706F344E91DAB64F3378841628B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93789445511E3FEAB3D09A6F552EEE2D;
+			remoteInfo = "SwiftMessages-SwiftMessages";
+		};
+		ADDF625C5C8999BE9C25C1170EE23684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD84FAAB6802581D257FEA9944CF14B;
+			remoteInfo = SpinWheelControl;
+		};
+		D05394E792F3D0CADFC884D77D8A0654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB613A18652334F6BFC5F27BADF515D;
+			remoteInfo = SwiftMessages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028D246D5B52FA9AC72B08E237DA86E4 /* Pods-LuckySpin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckySpin-dummy.m"; sourceTree = "<group>"; };
+		04657D163F0C90FC232C3C72DA6D8EB1 /* BaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseView.swift; path = SwiftMessages/BaseView.swift; sourceTree = "<group>"; };
+		063FC7C4D7735B054AF41B5BEE69E382 /* SpinWheelWedge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelWedge.swift; path = SpinWheelControl/SpinWheelWedge.swift; sourceTree = "<group>"; };
+		08C13F0B259731008F8372014FB0EDFA /* successIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIcon@3x.png"; path = "SwiftMessages/Resources/successIcon@3x.png"; sourceTree = "<group>"; };
+		0CA7EBED144D699F7022EFAB83DEEB41 /* errorIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIcon@3x.png"; path = "SwiftMessages/Resources/errorIcon@3x.png"; sourceTree = "<group>"; };
+		117F554EFB0EADECCD95E3DE15A0A0E0 /* SpinWheelControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpinWheelControl.framework; path = SpinWheelControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13008A280FA3FD7ABD681AC7537CCABF /* KeyboardTrackingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardTrackingView.swift; path = SwiftMessages/KeyboardTrackingView.swift; sourceTree = "<group>"; };
+		155F8C964B895E896299C1E3E9A529C1 /* MaskingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskingView.swift; path = SwiftMessages/MaskingView.swift; sourceTree = "<group>"; };
+		1805218A391DADF39CC64297757ECEE6 /* MarginAdjustable+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarginAdjustable+Animation.swift"; path = "SwiftMessages/MarginAdjustable+Animation.swift"; sourceTree = "<group>"; };
+		1922374CEC3077E21B2C8ACDCD88107F /* Weak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weak.swift; path = SwiftMessages/Weak.swift; sourceTree = "<group>"; };
+		1AA320B7A982DC9A6EEEB5E6CFE31FA6 /* errorIconSubtle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = errorIconSubtle.png; path = SwiftMessages/Resources/errorIconSubtle.png; sourceTree = "<group>"; };
+		1B186A3093027E7D8D1D159117B1CE1E /* successIconLight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconLight@2x.png"; path = "SwiftMessages/Resources/successIconLight@2x.png"; sourceTree = "<group>"; };
+		20B50E5416BB435EDA0FD2CCB0E09EC8 /* SmoothButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmoothButton.swift; path = SmoothButton/Classes/SmoothButton.swift; sourceTree = "<group>"; };
+		21C2157EE057168B1457D6FF86A146A9 /* Pods_LuckySpin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LuckySpin.framework; path = "Pods-LuckySpin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		226D549A7742ADC31CA1F280DA5B9D1B /* warningIconLight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warningIconLight.png; path = SwiftMessages/Resources/warningIconLight.png; sourceTree = "<group>"; };
+		227CC82FC4B31122D862F0990F9018FC /* StatusLine.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StatusLine.xib; path = SwiftMessages/Resources/StatusLine.xib; sourceTree = "<group>"; };
+		23EAACF2ED8301C1FC238C890C043E54 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = SmoothButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
+		258347EC209FDFB695C24B7C0313C2AD /* SpinWheelControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpinWheelControl.release.xcconfig; sourceTree = "<group>"; };
+		25C4A0E6F726600CC2F7CDF2A14F6CA2 /* SwiftMessages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftMessages-Info.plist"; sourceTree = "<group>"; };
+		274FD600CD8E1839BD6354F26A2C23B1 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = SmoothButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		2EB07B2A2D4F8E5E5949CB2C23377DF4 /* ThemifyIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemifyIcon.swift; path = SmoothButton/Classes/SwiftIconFont/ThemifyIcon.swift; sourceTree = "<group>"; };
+		2F62F5D4B8779F1722A8401149614A6A /* SmoothButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmoothButton-umbrella.h"; sourceTree = "<group>"; };
+		305946C5D4A3A7C0C596F042BF9E9BBA /* successIconSubtle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = successIconSubtle.png; path = SwiftMessages/Resources/successIconSubtle.png; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		329A839F34B527A611EDCF78C9095A03 /* SpinWheelControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinWheelControl-prefix.pch"; sourceTree = "<group>"; };
+		33754A2C677EB37D82BE0171474A6F10 /* SpinWheelControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelControl.swift; path = SpinWheelControl/SpinWheelControl.swift; sourceTree = "<group>"; };
+		337AFC97F89E7E684810155914EE8515 /* errorIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = errorIcon.png; path = SwiftMessages/Resources/errorIcon.png; sourceTree = "<group>"; };
+		36F875FDE47AF9ECF51BBB7F3884C9B2 /* infoIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIcon@3x.png"; path = "SwiftMessages/Resources/infoIcon@3x.png"; sourceTree = "<group>"; };
+		39D403725A41BFB2A9AB4E93960BFCFF /* warningIconSubtle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIconSubtle@3x.png"; path = "SwiftMessages/Resources/warningIconSubtle@3x.png"; sourceTree = "<group>"; };
+		3A2411B7CC0EEEF147867B38853789DC /* SwiftMessagesSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftMessagesSegue.swift; path = SwiftMessages/SwiftMessagesSegue.swift; sourceTree = "<group>"; };
+		3CD87CFA37134B730ED9FBB823698714 /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = SmoothButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
+		3E1570AEBE2E5888726184D718782AFC /* Pods-LuckySpin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuckySpin.modulemap"; sourceTree = "<group>"; };
+		3F1299842B6B04677306FF2ED214FEF0 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Utils.swift"; path = "SwiftMessages/UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		3FAAA7A5AB0C5EA9C09369E5B7986E3E /* SpinWheelWedgeShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelWedgeShape.swift; path = SpinWheelControl/SpinWheelWedgeShape.swift; sourceTree = "<group>"; };
+		419EE0E739A37321981D6E6DA2F069D8 /* Pods-LuckySpin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckySpin-Info.plist"; sourceTree = "<group>"; };
+		424D42A7457A1C22C1D3F47D9EF21082 /* SmoothButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmoothButton.framework; path = SmoothButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46436893CBD714A81004F087D95A9AF5 /* infoIconLight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = infoIconLight.png; path = SwiftMessages/Resources/infoIconLight.png; sourceTree = "<group>"; };
+		46E1DA22EBC600BE5CEF4687EFD20393 /* SmoothButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmoothButton-prefix.pch"; sourceTree = "<group>"; };
+		4824F23D80FF9070A5F8A452DB11EB9A /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMessages.framework; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACB1EEA67A48365B87B759AD92C01F0 /* SpinWheelControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpinWheelControl.modulemap; sourceTree = "<group>"; };
+		4BF2E1A5247EAA6C2DCC930318FB29CF /* TopBottomAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopBottomAnimation.swift; path = SwiftMessages/TopBottomAnimation.swift; sourceTree = "<group>"; };
+		4FAE8FB512ECD6B2EE89907DC27C3CF8 /* successIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIcon@2x.png"; path = "SwiftMessages/Resources/successIcon@2x.png"; sourceTree = "<group>"; };
+		4FE4D7ACC50B073C4CD1ACAF950DCBD1 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = SmoothButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
+		517690B6CCE36CE36EA8C9260414C212 /* infoIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIconLight@3x.png"; path = "SwiftMessages/Resources/infoIconLight@3x.png"; sourceTree = "<group>"; };
+		5177E1953455B25A8FD4B583C1A4BC85 /* SpinWheelControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpinWheelControl.debug.xcconfig; sourceTree = "<group>"; };
+		5454D8D8C797B04754D3C69A11E66ABB /* CenteredView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CenteredView.xib; path = SwiftMessages/Resources/CenteredView.xib; sourceTree = "<group>"; };
+		54CF064B3D8D6282AB1D9E1E95336724 /* SwiftMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMessages-dummy.m"; sourceTree = "<group>"; };
+		57A9B7F83147F38FB415CE39CF97E60A /* SpinWheelControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpinWheelControl-Info.plist"; sourceTree = "<group>"; };
+		5808234CDA9933739C260A4749E91388 /* WindowViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowViewController.swift; path = SwiftMessages/WindowViewController.swift; sourceTree = "<group>"; };
+		5AB5C6DA04A025094243D6797F59108E /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = SmoothButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		5F8BB8C0928971C5052D49CBD361B221 /* successIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconLight@3x.png"; path = "SwiftMessages/Resources/successIconLight@3x.png"; sourceTree = "<group>"; };
+		5FAB75FB3FEBDB76A6B7A1BD4E71D3B6 /* SpinWheelWedgeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelWedgeLabel.swift; path = SpinWheelControl/SpinWheelWedgeLabel.swift; sourceTree = "<group>"; };
+		608F6626EA43DC378144A0EF2D0D8B34 /* errorIconLight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = errorIconLight.png; path = SwiftMessages/Resources/errorIconLight.png; sourceTree = "<group>"; };
+		62B240487102AD8285718AF10C63FC99 /* warningIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIcon@3x.png"; path = "SwiftMessages/Resources/warningIcon@3x.png"; sourceTree = "<group>"; };
+		633C84B08051D773C47DA113259683B8 /* infoIconSubtle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIconSubtle@3x.png"; path = "SwiftMessages/Resources/infoIconSubtle@3x.png"; sourceTree = "<group>"; };
+		642CB57373553972BFC2CA48E9952C86 /* SpinWheelControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpinWheelControl-dummy.m"; sourceTree = "<group>"; };
+		67A6A8D23E41358937064BF57BE020FC /* warningIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warningIcon.png; path = SwiftMessages/Resources/warningIcon.png; sourceTree = "<group>"; };
+		6AC0A9DD4EDCBFD1401C20448A29112B /* Pods-LuckySpin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckySpin-umbrella.h"; sourceTree = "<group>"; };
+		6B78E7ED5F3E1A308FC67B765AF0C57A /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = SmoothButton/Resources/octicons.ttf; sourceTree = "<group>"; };
+		6C8BA8CD6C074B17CB3CAF15EA524C2B /* PhysicsAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhysicsAnimation.swift; path = SwiftMessages/PhysicsAnimation.swift; sourceTree = "<group>"; };
+		7035EB5DA30E2A04FF99708719C6D3D3 /* NSLayoutConstraint+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Utils.swift"; path = "SwiftMessages/NSLayoutConstraint+Utils.swift"; sourceTree = "<group>"; };
+		7158298131480C097DC9F06A18135AFD /* SpinWheelControlDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelControlDelegate.swift; path = SpinWheelControl/SpinWheelControlDelegate.swift; sourceTree = "<group>"; };
+		718B7A5A07DCE5854400A3B7B16BAD3F /* successIconSubtle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconSubtle@3x.png"; path = "SwiftMessages/Resources/successIconSubtle@3x.png"; sourceTree = "<group>"; };
+		71BB1FA4AE9750F7D77C72E8AC901DE6 /* Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presenter.swift; path = SwiftMessages/Presenter.swift; sourceTree = "<group>"; };
+		72C03DF151192EC3A9C6361FF3F18EA1 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = SmoothButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
+		74DF93C86EB264AA524110F3B6B2FB19 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = SmoothButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftMessages.bundle; path = "SwiftMessages-SwiftMessages.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		769F46200319469E69323E863CD08084 /* SwiftMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftMessages.modulemap; sourceTree = "<group>"; };
+		778496A54783F63F0D9DB267AEA5B09A /* errorIconSubtle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIconSubtle@2x.png"; path = "SwiftMessages/Resources/errorIconSubtle@2x.png"; sourceTree = "<group>"; };
+		7CE093CA52E825D19B23F11A986B1F54 /* warningIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIcon@2x.png"; path = "SwiftMessages/Resources/warningIcon@2x.png"; sourceTree = "<group>"; };
+		7E0C9A4BC17AB5C27F8C655432FF6ECD /* Pods-LuckySpin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckySpin-frameworks.sh"; sourceTree = "<group>"; };
+		7E859BA014F644306FA9EAD9011FD74E /* PassthroughWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughWindow.swift; path = SwiftMessages/PassthroughWindow.swift; sourceTree = "<group>"; };
+		809A09678872240A47A0952D3F15C4D5 /* SwiftMessages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessages.release.xcconfig; sourceTree = "<group>"; };
+		81B05AB32A8810D2C5ABC0939D5EC1F0 /* errorIconLight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIconLight@2x.png"; path = "SwiftMessages/Resources/errorIconLight@2x.png"; sourceTree = "<group>"; };
+		831113F7A83C7082578F527D3FDF58F8 /* Pods-LuckySpin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckySpin.debug.xcconfig"; sourceTree = "<group>"; };
+		8323FF6463D88E99EFB08B2E839CB0A0 /* errorIconSubtle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIconSubtle@3x.png"; path = "SwiftMessages/Resources/errorIconSubtle@3x.png"; sourceTree = "<group>"; };
+		83476015E15B4FD9A74A722D71872037 /* SmoothButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmoothButton.release.xcconfig; sourceTree = "<group>"; };
+		83F657F45B3FE0C44C8D4DED6CD323ED /* warningIconSubtle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warningIconSubtle.png; path = SwiftMessages/Resources/warningIconSubtle.png; sourceTree = "<group>"; };
+		87F9C4303E25424DA9B5218DB9B2563F /* MessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageView.swift; path = SwiftMessages/MessageView.swift; sourceTree = "<group>"; };
+		883E8924134DC7309DAFF7025F329E89 /* infoIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIcon@2x.png"; path = "SwiftMessages/Resources/infoIcon@2x.png"; sourceTree = "<group>"; };
+		8B096C9E14438C12A595CD75CB9411A4 /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifiable.swift; path = SwiftMessages/Identifiable.swift; sourceTree = "<group>"; };
+		8C1F4AC634AD508C10EDE041FA305772 /* MarginAdjustable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarginAdjustable.swift; path = SwiftMessages/MarginAdjustable.swift; sourceTree = "<group>"; };
+		8E1B21E04B4B4A35D51178C236EC187E /* errorIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIcon@2x.png"; path = "SwiftMessages/Resources/errorIcon@2x.png"; sourceTree = "<group>"; };
+		8F263F49C28B6442092BB0E6CFF9DA7C /* MapIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapIcon.swift; path = SmoothButton/Classes/SwiftIconFont/MapIcon.swift; sourceTree = "<group>"; };
+		9031DF83AE77F8A68FAE61D54EC864DE /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "SmoothButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
+		9290CB1AB3EF258CBDBBB8344F055C0A /* IonIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IonIcons.swift; path = SmoothButton/Classes/SwiftIconFont/IonIcons.swift; sourceTree = "<group>"; };
+		93BC61AA3F3F4A412ACF50065A344550 /* BackgroundViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundViewable.swift; path = SwiftMessages/BackgroundViewable.swift; sourceTree = "<group>"; };
+		93C97D2794971B1C906E7EA613ED0336 /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = SwiftMessages/PassthroughView.swift; sourceTree = "<group>"; };
+		97C0C5325348BE4CD10C037AEB740F9C /* SpinWheelControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpinWheelControl.h; path = SpinWheelControl/SpinWheelControl.h; sourceTree = "<group>"; };
+		97C7AA6EEC0E567375756C1D2FC3E3B6 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "SmoothButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		9A9DF0FF5E782F539C3D616F85DC7EF0 /* Pods-LuckySpin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckySpin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E517C4F65A815E1DA42785D6E2A3D04 /* infoIconSubtle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = infoIconSubtle.png; path = SwiftMessages/Resources/infoIconSubtle.png; sourceTree = "<group>"; };
+		A07021963E15F95FD9C9D0B482AC565F /* infoIconLight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIconLight@2x.png"; path = "SwiftMessages/Resources/infoIconLight@2x.png"; sourceTree = "<group>"; };
+		A3955FA2CDADB5F3A31BDC992298EFA7 /* TabView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TabView.xib; path = SwiftMessages/Resources/TabView.xib; sourceTree = "<group>"; };
+		A4869EA4A929E2A27F9D9E1C0D7C48CA /* successIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = successIcon.png; path = SwiftMessages/Resources/successIcon.png; sourceTree = "<group>"; };
+		A5384F58DB1667292B61A53503434198 /* infoIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = infoIcon.png; path = SwiftMessages/Resources/infoIcon.png; sourceTree = "<group>"; };
+		A5FC2C61E4DB14389302EEEE4065A0D3 /* NSBundle+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+Utils.swift"; path = "SwiftMessages/NSBundle+Utils.swift"; sourceTree = "<group>"; };
+		A6CC8C3603A0ABB38F25632EF33138D9 /* SwiftMessages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-umbrella.h"; sourceTree = "<group>"; };
+		A8EEFEF45E7A298E68F8A0B03B8B2A32 /* warningIconLight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIconLight@2x.png"; path = "SwiftMessages/Resources/warningIconLight@2x.png"; sourceTree = "<group>"; };
+		AC2AC38D7C273FD7DB635946A6DC982A /* Iconic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Iconic.swift; path = SmoothButton/Classes/SwiftIconFont/Iconic.swift; sourceTree = "<group>"; };
+		AFB71BFA4E9CC336AFF7275AD1A539DD /* successIconSubtle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "successIconSubtle@2x.png"; path = "SwiftMessages/Resources/successIconSubtle@2x.png"; sourceTree = "<group>"; };
+		B178FB66C76BB68B5CD35CF6CEA62D85 /* infoIconSubtle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "infoIconSubtle@2x.png"; path = "SwiftMessages/Resources/infoIconSubtle@2x.png"; sourceTree = "<group>"; };
+		B636B0B5B5E685B6356F400B94822ABF /* PhysicsPanHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhysicsPanHandler.swift; path = SwiftMessages/PhysicsPanHandler.swift; sourceTree = "<group>"; };
+		B92F766AC41B17243065DC9E98EAF0FE /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = SwiftMessages/Animator.swift; sourceTree = "<group>"; };
+		B9CE88EC432255E464D6DBDBFAE3FEC6 /* Degrees+MathMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Degrees+MathMethods.swift"; path = "SpinWheelControl/Degrees+MathMethods.swift"; sourceTree = "<group>"; };
+		C9E4859226D97321588B6D2B1873294D /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = SwiftMessages/Theme.swift; sourceTree = "<group>"; };
+		CECE55FC1687B505748524A9F7BECF0E /* ResourceBundle-SwiftMessages-SwiftMessages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftMessages-SwiftMessages-Info.plist"; sourceTree = "<group>"; };
+		CED22CCDE494281967612C5BFF5CCAAD /* errorIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "errorIconLight@3x.png"; path = "SwiftMessages/Resources/errorIconLight@3x.png"; sourceTree = "<group>"; };
+		D034E809DFBBD6D7449433F581821DFD /* AccessibleMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibleMessage.swift; path = SwiftMessages/AccessibleMessage.swift; sourceTree = "<group>"; };
+		D071BB201F0B80939A21921DD64CB2E2 /* Octicon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Octicon.swift; path = SmoothButton/Classes/SwiftIconFont/Octicon.swift; sourceTree = "<group>"; };
+		D0BD6EAD909DC89B2667851427EA5BFF /* Pods-LuckySpin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckySpin.release.xcconfig"; sourceTree = "<group>"; };
+		D3F4769A6F9982E6CDF03641B09565B1 /* UIEdgeInsets+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIEdgeInsets+Utils.swift"; path = "SwiftMessages/UIEdgeInsets+Utils.swift"; sourceTree = "<group>"; };
+		D5F3C130D5E0F9FD2CEBD92E500B3A6B /* SwiftMessages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessages.debug.xcconfig; sourceTree = "<group>"; };
+		D971750032E780AB288276C962EEFF0A /* CALayer+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Utils.swift"; path = "SwiftMessages/CALayer+Utils.swift"; sourceTree = "<group>"; };
+		DDEDC6466E5ADE1F4B8A3EB0B30651EB /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = SwiftMessages/Error.swift; sourceTree = "<group>"; };
+		DF71C1C8E131AA5FDE6CFD6ED3FAF662 /* SmoothButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmoothButton-dummy.m"; sourceTree = "<group>"; };
+		E2DAAE28997F41817960A7FBF9B9DC49 /* SwiftMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftMessages.swift; path = SwiftMessages/SwiftMessages.swift; sourceTree = "<group>"; };
+		E4996B5C11E39A81FD7E67C54398D03F /* SmoothButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmoothButton.modulemap; sourceTree = "<group>"; };
+		E51EB6C2C66D85E4B85C578D1CE2E82A /* SmoothButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SmoothButton-Info.plist"; sourceTree = "<group>"; };
+		E7DCD14FDD68D186D80FDF59BEFBC423 /* SpinWheelControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinWheelControl-umbrella.h"; sourceTree = "<group>"; };
+		EC96001BA7C12732696C94349FF8AB3B /* warningIconLight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIconLight@3x.png"; path = "SwiftMessages/Resources/warningIconLight@3x.png"; sourceTree = "<group>"; };
+		EDCCA3B2E37C576D731C81046CDAEF97 /* MessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageView.xib; path = SwiftMessages/Resources/MessageView.xib; sourceTree = "<group>"; };
+		F005C0A3292DEC8598E99D9489C04971 /* Pods-LuckySpin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckySpin-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0DD523D9204FAB210C74A894333F323 /* MaterialIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialIcon.swift; path = SmoothButton/Classes/SwiftIconFont/MaterialIcon.swift; sourceTree = "<group>"; };
+		F435072FA2654F376B7DBBC4B149AED8 /* SwiftMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-prefix.pch"; sourceTree = "<group>"; };
+		F9C9CB293EE4B7A84B3A8E1B1B4FC475 /* SmoothButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmoothButton.debug.xcconfig; sourceTree = "<group>"; };
+		F9D7D34DEC32776686A3F7976BCFAC5E /* SmoothButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SmoothButton.xib; path = SmoothButton/Resources/SmoothButton.xib; sourceTree = "<group>"; };
+		FA4DD86E7407EEBD6BB509EA76CA2739 /* CornerRoundingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CornerRoundingView.swift; path = SwiftMessages/CornerRoundingView.swift; sourceTree = "<group>"; };
+		FCF618B8D5D167C4F1A4C8042F20A11B /* SpinWheelControlDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelControlDataSource.swift; path = SpinWheelControl/SpinWheelControlDataSource.swift; sourceTree = "<group>"; };
+		FD151B54E16DFAA109B3546CD7423264 /* CardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CardView.xib; path = SwiftMessages/Resources/CardView.xib; sourceTree = "<group>"; };
+		FE0628D1307B1B1DBCA2D2613D381270 /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "SmoothButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
+		FE6FC4C25FDA5413473DC8A7A0CE0ADF /* warningIconSubtle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningIconSubtle@2x.png"; path = "SwiftMessages/Resources/warningIconSubtle@2x.png"; sourceTree = "<group>"; };
+		FF7474F6872426E5596F7D7DA6857167 /* successIconLight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = successIconLight.png; path = SwiftMessages/Resources/successIconLight.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1537E80B8CE582C3DD12375D818DF4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46BEA35B2CBED3523648682A8D9AAF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D08298FA8923867EF5ADD5E51800545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A644C90037F384950A0A2C8AD18E326 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6213E4F75DAD42202A0398C77B5602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9794AFF20306D60C0C881651DAF3E870 /* Foundation.framework in Frameworks */,
+				604FE407CEFB592DD2842FAA0D828A9E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6C2D413ED081BF2DFD01DD84A2C21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21BB9169B800803A6D98A93C714B75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E52082AD0A5855439B4D0DCC09226F4 /* Foundation.framework in Frameworks */,
+				01F864DC2CB32686D594D91355A67613 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F9564D633DDF1D0B553DC606E0EEA4B /* SwiftMessages */ = {
+			isa = PBXGroup;
+			children = (
+				778D4F2DD51746D01D02A0A1680DFCB8 /* App */,
+				F4BDAD48A1A2589FAE02872002D74A78 /* Support Files */,
+			);
+			name = SwiftMessages;
+			path = SwiftMessages;
+			sourceTree = "<group>";
+		};
+		418652B4728DC35C3CD1F2EE6961AB4B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8256EE2E1AC3EA3F8EBE9AD370666EE5 /* Pods-LuckySpin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4D66CC4D412D149D25F0B36C71C76333 /* SmoothButton */ = {
+			isa = PBXGroup;
+			children = (
+				4FE4D7ACC50B073C4CD1ACAF950DCBD1 /* FontAwesome.swift */,
+				72C03DF151192EC3A9C6361FF3F18EA1 /* FontLoader.swift */,
+				AC2AC38D7C273FD7DB635946A6DC982A /* Iconic.swift */,
+				9290CB1AB3EF258CBDBBB8344F055C0A /* IonIcons.swift */,
+				8F263F49C28B6442092BB0E6CFF9DA7C /* MapIcon.swift */,
+				F0DD523D9204FAB210C74A894333F323 /* MaterialIcon.swift */,
+				D071BB201F0B80939A21921DD64CB2E2 /* Octicon.swift */,
+				20B50E5416BB435EDA0FD2CCB0E09EC8 /* SmoothButton.swift */,
+				3CD87CFA37134B730ED9FBB823698714 /* SwiftIconFont.swift */,
+				23EAACF2ED8301C1FC238C890C043E54 /* SwiftIconLabel.swift */,
+				2EB07B2A2D4F8E5E5949CB2C23377DF4 /* ThemifyIcon.swift */,
+				A5E30DBB73518E51A5101C6837D79398 /* Resources */,
+				B13F01362E598C8FEBC29CDBFF355867 /* Support Files */,
+			);
+			name = SmoothButton;
+			path = SmoothButton;
+			sourceTree = "<group>";
+		};
+		6D7C699EC267F6DB4592AC73A4F726F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21C2157EE057168B1457D6FF86A146A9 /* Pods_LuckySpin.framework */,
+				424D42A7457A1C22C1D3F47D9EF21082 /* SmoothButton.framework */,
+				117F554EFB0EADECCD95E3DE15A0A0E0 /* SpinWheelControl.framework */,
+				753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */,
+				4824F23D80FF9070A5F8A452DB11EB9A /* SwiftMessages.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		778D4F2DD51746D01D02A0A1680DFCB8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D034E809DFBBD6D7449433F581821DFD /* AccessibleMessage.swift */,
+				B92F766AC41B17243065DC9E98EAF0FE /* Animator.swift */,
+				93BC61AA3F3F4A412ACF50065A344550 /* BackgroundViewable.swift */,
+				04657D163F0C90FC232C3C72DA6D8EB1 /* BaseView.swift */,
+				D971750032E780AB288276C962EEFF0A /* CALayer+Utils.swift */,
+				FA4DD86E7407EEBD6BB509EA76CA2739 /* CornerRoundingView.swift */,
+				DDEDC6466E5ADE1F4B8A3EB0B30651EB /* Error.swift */,
+				8B096C9E14438C12A595CD75CB9411A4 /* Identifiable.swift */,
+				13008A280FA3FD7ABD681AC7537CCABF /* KeyboardTrackingView.swift */,
+				8C1F4AC634AD508C10EDE041FA305772 /* MarginAdjustable.swift */,
+				1805218A391DADF39CC64297757ECEE6 /* MarginAdjustable+Animation.swift */,
+				155F8C964B895E896299C1E3E9A529C1 /* MaskingView.swift */,
+				87F9C4303E25424DA9B5218DB9B2563F /* MessageView.swift */,
+				A5FC2C61E4DB14389302EEEE4065A0D3 /* NSBundle+Utils.swift */,
+				7035EB5DA30E2A04FF99708719C6D3D3 /* NSLayoutConstraint+Utils.swift */,
+				93C97D2794971B1C906E7EA613ED0336 /* PassthroughView.swift */,
+				7E859BA014F644306FA9EAD9011FD74E /* PassthroughWindow.swift */,
+				6C8BA8CD6C074B17CB3CAF15EA524C2B /* PhysicsAnimation.swift */,
+				B636B0B5B5E685B6356F400B94822ABF /* PhysicsPanHandler.swift */,
+				71BB1FA4AE9750F7D77C72E8AC901DE6 /* Presenter.swift */,
+				E2DAAE28997F41817960A7FBF9B9DC49 /* SwiftMessages.swift */,
+				3A2411B7CC0EEEF147867B38853789DC /* SwiftMessagesSegue.swift */,
+				C9E4859226D97321588B6D2B1873294D /* Theme.swift */,
+				4BF2E1A5247EAA6C2DCC930318FB29CF /* TopBottomAnimation.swift */,
+				D3F4769A6F9982E6CDF03641B09565B1 /* UIEdgeInsets+Utils.swift */,
+				3F1299842B6B04677306FF2ED214FEF0 /* UIViewController+Utils.swift */,
+				1922374CEC3077E21B2C8ACDCD88107F /* Weak.swift */,
+				5808234CDA9933739C260A4749E91388 /* WindowViewController.swift */,
+				E7192958FBBF84903C91F5C68E96EA37 /* Resources */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		8256EE2E1AC3EA3F8EBE9AD370666EE5 /* Pods-LuckySpin */ = {
+			isa = PBXGroup;
+			children = (
+				3E1570AEBE2E5888726184D718782AFC /* Pods-LuckySpin.modulemap */,
+				9A9DF0FF5E782F539C3D616F85DC7EF0 /* Pods-LuckySpin-acknowledgements.markdown */,
+				F005C0A3292DEC8598E99D9489C04971 /* Pods-LuckySpin-acknowledgements.plist */,
+				028D246D5B52FA9AC72B08E237DA86E4 /* Pods-LuckySpin-dummy.m */,
+				7E0C9A4BC17AB5C27F8C655432FF6ECD /* Pods-LuckySpin-frameworks.sh */,
+				419EE0E739A37321981D6E6DA2F069D8 /* Pods-LuckySpin-Info.plist */,
+				6AC0A9DD4EDCBFD1401C20448A29112B /* Pods-LuckySpin-umbrella.h */,
+				831113F7A83C7082578F527D3FDF58F8 /* Pods-LuckySpin.debug.xcconfig */,
+				D0BD6EAD909DC89B2667851427EA5BFF /* Pods-LuckySpin.release.xcconfig */,
+			);
+			name = "Pods-LuckySpin";
+			path = "Target Support Files/Pods-LuckySpin";
+			sourceTree = "<group>";
+		};
+		969E4D988E5B46C7C0B7B7819D19082A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB1EEA67A48365B87B759AD92C01F0 /* SpinWheelControl.modulemap */,
+				642CB57373553972BFC2CA48E9952C86 /* SpinWheelControl-dummy.m */,
+				57A9B7F83147F38FB415CE39CF97E60A /* SpinWheelControl-Info.plist */,
+				329A839F34B527A611EDCF78C9095A03 /* SpinWheelControl-prefix.pch */,
+				E7DCD14FDD68D186D80FDF59BEFBC423 /* SpinWheelControl-umbrella.h */,
+				5177E1953455B25A8FD4B583C1A4BC85 /* SpinWheelControl.debug.xcconfig */,
+				258347EC209FDFB695C24B7C0313C2AD /* SpinWheelControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SpinWheelControl";
+			sourceTree = "<group>";
+		};
+		A5E30DBB73518E51A5101C6837D79398 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74DF93C86EB264AA524110F3B6B2FB19 /* FontAwesome.ttf */,
+				274FD600CD8E1839BD6354F26A2C23B1 /* Ionicons.ttf */,
+				9031DF83AE77F8A68FAE61D54EC864DE /* map-icons.ttf */,
+				97C7AA6EEC0E567375756C1D2FC3E3B6 /* MaterialIcons-Regular.ttf */,
+				6B78E7ED5F3E1A308FC67B765AF0C57A /* octicons.ttf */,
+				FE0628D1307B1B1DBCA2D2613D381270 /* open-iconic.ttf */,
+				F9D7D34DEC32776686A3F7976BCFAC5E /* SmoothButton.xib */,
+				5AB5C6DA04A025094243D6797F59108E /* themify.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B12FB0DEF98C687FF390B252EF750367 /* SpinWheelControl */ = {
+			isa = PBXGroup;
+			children = (
+				B9CE88EC432255E464D6DBDBFAE3FEC6 /* Degrees+MathMethods.swift */,
+				97C0C5325348BE4CD10C037AEB740F9C /* SpinWheelControl.h */,
+				33754A2C677EB37D82BE0171474A6F10 /* SpinWheelControl.swift */,
+				FCF618B8D5D167C4F1A4C8042F20A11B /* SpinWheelControlDataSource.swift */,
+				7158298131480C097DC9F06A18135AFD /* SpinWheelControlDelegate.swift */,
+				063FC7C4D7735B054AF41B5BEE69E382 /* SpinWheelWedge.swift */,
+				5FAB75FB3FEBDB76A6B7A1BD4E71D3B6 /* SpinWheelWedgeLabel.swift */,
+				3FAAA7A5AB0C5EA9C09369E5B7986E3E /* SpinWheelWedgeShape.swift */,
+				969E4D988E5B46C7C0B7B7819D19082A /* Support Files */,
+			);
+			name = SpinWheelControl;
+			path = SpinWheelControl;
+			sourceTree = "<group>";
+		};
+		B13F01362E598C8FEBC29CDBFF355867 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4996B5C11E39A81FD7E67C54398D03F /* SmoothButton.modulemap */,
+				DF71C1C8E131AA5FDE6CFD6ED3FAF662 /* SmoothButton-dummy.m */,
+				E51EB6C2C66D85E4B85C578D1CE2E82A /* SmoothButton-Info.plist */,
+				46E1DA22EBC600BE5CEF4687EFD20393 /* SmoothButton-prefix.pch */,
+				2F62F5D4B8779F1722A8401149614A6A /* SmoothButton-umbrella.h */,
+				F9C9CB293EE4B7A84B3A8E1B1B4FC475 /* SmoothButton.debug.xcconfig */,
+				83476015E15B4FD9A74A722D71872037 /* SmoothButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmoothButton";
+			sourceTree = "<group>";
+		};
+		B8A623C19B1775D58C314EBBF777F9B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D66CC4D412D149D25F0B36C71C76333 /* SmoothButton */,
+				B12FB0DEF98C687FF390B252EF750367 /* SpinWheelControl */,
+				3F9564D633DDF1D0B553DC606E0EEA4B /* SwiftMessages */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B8A623C19B1775D58C314EBBF777F9B3 /* Pods */,
+				6D7C699EC267F6DB4592AC73A4F726F4 /* Products */,
+				418652B4728DC35C3CD1F2EE6961AB4B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E7192958FBBF84903C91F5C68E96EA37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD151B54E16DFAA109B3546CD7423264 /* CardView.xib */,
+				5454D8D8C797B04754D3C69A11E66ABB /* CenteredView.xib */,
+				337AFC97F89E7E684810155914EE8515 /* errorIcon.png */,
+				8E1B21E04B4B4A35D51178C236EC187E /* errorIcon@2x.png */,
+				0CA7EBED144D699F7022EFAB83DEEB41 /* errorIcon@3x.png */,
+				608F6626EA43DC378144A0EF2D0D8B34 /* errorIconLight.png */,
+				81B05AB32A8810D2C5ABC0939D5EC1F0 /* errorIconLight@2x.png */,
+				CED22CCDE494281967612C5BFF5CCAAD /* errorIconLight@3x.png */,
+				1AA320B7A982DC9A6EEEB5E6CFE31FA6 /* errorIconSubtle.png */,
+				778496A54783F63F0D9DB267AEA5B09A /* errorIconSubtle@2x.png */,
+				8323FF6463D88E99EFB08B2E839CB0A0 /* errorIconSubtle@3x.png */,
+				A5384F58DB1667292B61A53503434198 /* infoIcon.png */,
+				883E8924134DC7309DAFF7025F329E89 /* infoIcon@2x.png */,
+				36F875FDE47AF9ECF51BBB7F3884C9B2 /* infoIcon@3x.png */,
+				46436893CBD714A81004F087D95A9AF5 /* infoIconLight.png */,
+				A07021963E15F95FD9C9D0B482AC565F /* infoIconLight@2x.png */,
+				517690B6CCE36CE36EA8C9260414C212 /* infoIconLight@3x.png */,
+				9E517C4F65A815E1DA42785D6E2A3D04 /* infoIconSubtle.png */,
+				B178FB66C76BB68B5CD35CF6CEA62D85 /* infoIconSubtle@2x.png */,
+				633C84B08051D773C47DA113259683B8 /* infoIconSubtle@3x.png */,
+				EDCCA3B2E37C576D731C81046CDAEF97 /* MessageView.xib */,
+				227CC82FC4B31122D862F0990F9018FC /* StatusLine.xib */,
+				A4869EA4A929E2A27F9D9E1C0D7C48CA /* successIcon.png */,
+				4FAE8FB512ECD6B2EE89907DC27C3CF8 /* successIcon@2x.png */,
+				08C13F0B259731008F8372014FB0EDFA /* successIcon@3x.png */,
+				FF7474F6872426E5596F7D7DA6857167 /* successIconLight.png */,
+				1B186A3093027E7D8D1D159117B1CE1E /* successIconLight@2x.png */,
+				5F8BB8C0928971C5052D49CBD361B221 /* successIconLight@3x.png */,
+				305946C5D4A3A7C0C596F042BF9E9BBA /* successIconSubtle.png */,
+				AFB71BFA4E9CC336AFF7275AD1A539DD /* successIconSubtle@2x.png */,
+				718B7A5A07DCE5854400A3B7B16BAD3F /* successIconSubtle@3x.png */,
+				A3955FA2CDADB5F3A31BDC992298EFA7 /* TabView.xib */,
+				67A6A8D23E41358937064BF57BE020FC /* warningIcon.png */,
+				7CE093CA52E825D19B23F11A986B1F54 /* warningIcon@2x.png */,
+				62B240487102AD8285718AF10C63FC99 /* warningIcon@3x.png */,
+				226D549A7742ADC31CA1F280DA5B9D1B /* warningIconLight.png */,
+				A8EEFEF45E7A298E68F8A0B03B8B2A32 /* warningIconLight@2x.png */,
+				EC96001BA7C12732696C94349FF8AB3B /* warningIconLight@3x.png */,
+				83F657F45B3FE0C44C8D4DED6CD323ED /* warningIconSubtle.png */,
+				FE6FC4C25FDA5413473DC8A7A0CE0ADF /* warningIconSubtle@2x.png */,
+				39D403725A41BFB2A9AB4E93960BFCFF /* warningIconSubtle@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4BDAD48A1A2589FAE02872002D74A78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECE55FC1687B505748524A9F7BECF0E /* ResourceBundle-SwiftMessages-SwiftMessages-Info.plist */,
+				769F46200319469E69323E863CD08084 /* SwiftMessages.modulemap */,
+				54CF064B3D8D6282AB1D9E1E95336724 /* SwiftMessages-dummy.m */,
+				25C4A0E6F726600CC2F7CDF2A14F6CA2 /* SwiftMessages-Info.plist */,
+				F435072FA2654F376B7DBBC4B149AED8 /* SwiftMessages-prefix.pch */,
+				A6CC8C3603A0ABB38F25632EF33138D9 /* SwiftMessages-umbrella.h */,
+				D5F3C130D5E0F9FD2CEBD92E500B3A6B /* SwiftMessages.debug.xcconfig */,
+				809A09678872240A47A0952D3F15C4D5 /* SwiftMessages.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftMessages";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72FB8F512F1A2EE1FF774D5034FB8E92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3353D85387ADAEE658A6269674FBF581 /* Pods-LuckySpin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968C4233DEB50147F4BA2890FF612707 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8518BFEE35FC30A0B290F20E2072410E /* SpinWheelControl-umbrella.h in Headers */,
+				A362170D62F5CF9F5E55D062C38A1886 /* SpinWheelControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EC20B273CE42955BD4C7FF4C46A582 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD7DBADAA34A41CEF156168A4459D4C /* SwiftMessages-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E1190EC5B1F45F12F63837B75B441D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73424B71272F8D0072094D2EF9A92090 /* SmoothButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00739C6D33D278CA58BEEF8C23155893 /* Pods-LuckySpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35206C40F24FB17777A13CE43643A6E0 /* Build configuration list for PBXNativeTarget "Pods-LuckySpin" */;
+			buildPhases = (
+				72FB8F512F1A2EE1FF774D5034FB8E92 /* Headers */,
+				2FA09E34C66926F03EBD1D2D79C80750 /* Sources */,
+				1D08298FA8923867EF5ADD5E51800545 /* Frameworks */,
+				E2D8F691C2344976D1CF8DBFC4382131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FA5E5BFC1E32F0A0104C8B884B325E /* PBXTargetDependency */,
+				9B66B8C87F50242944FD39EF87186102 /* PBXTargetDependency */,
+				3E803F80C2B3CEB105070E16BDC48F62 /* PBXTargetDependency */,
+			);
+			name = "Pods-LuckySpin";
+			productName = "Pods-LuckySpin";
+			productReference = 21C2157EE057168B1457D6FF86A146A9 /* Pods_LuckySpin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2CD84FAAB6802581D257FEA9944CF14B /* SpinWheelControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F82159F75FE48B2FEBC99D3398C4C02 /* Build configuration list for PBXNativeTarget "SpinWheelControl" */;
+			buildPhases = (
+				968C4233DEB50147F4BA2890FF612707 /* Headers */,
+				33ED8114C5B6FDBAA7B66C52342C6ABC /* Sources */,
+				4D6213E4F75DAD42202A0398C77B5602 /* Frameworks */,
+				12A59C74D8484FCB330EA2963091F1D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinWheelControl;
+			productName = SpinWheelControl;
+			productReference = 117F554EFB0EADECCD95E3DE15A0A0E0 /* SpinWheelControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32F7787AA30FAE05D8D80B53025BAA89 /* SmoothButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8492854BCA1C03046F19C709EA197E26 /* Build configuration list for PBXNativeTarget "SmoothButton" */;
+			buildPhases = (
+				B3E1190EC5B1F45F12F63837B75B441D /* Headers */,
+				C14FFA0E66578AFB1C8F40256BCEE281 /* Sources */,
+				1537E80B8CE582C3DD12375D818DF4AE /* Frameworks */,
+				8E7C30120F231B7920B0533E389BDCB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmoothButton;
+			productName = SmoothButton;
+			productReference = 424D42A7457A1C22C1D3F47D9EF21082 /* SmoothButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93789445511E3FEAB3D09A6F552EEE2D /* SwiftMessages-SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0233809BD28290F179E6266B23990BE6 /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */;
+			buildPhases = (
+				07B704BB7A54CAD0584E097C37F4E7B0 /* Sources */,
+				9D6C2D413ED081BF2DFD01DD84A2C21D /* Frameworks */,
+				1159572DA8A942EA8021F3FC9D7C78DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftMessages-SwiftMessages";
+			productName = "SwiftMessages-SwiftMessages";
+			productReference = 753DD909979478A0C1B33E0524504EF1 /* SwiftMessages.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DAB613A18652334F6BFC5F27BADF515D /* SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B468164FB97E8A290B9B77CF2BA18546 /* Build configuration list for PBXNativeTarget "SwiftMessages" */;
+			buildPhases = (
+				A2EC20B273CE42955BD4C7FF4C46A582 /* Headers */,
+				0EBBA1DDC0A60DBC0C4D27C7ABB0053C /* Sources */,
+				D21BB9169B800803A6D98A93C714B75D /* Frameworks */,
+				90368FE22DD9DCB8E314F257291DE64B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44B5F78B10376D2A5F8CD1EA1AAEC898 /* PBXTargetDependency */,
+			);
+			name = SwiftMessages;
+			productName = SwiftMessages;
+			productReference = 4824F23D80FF9070A5F8A452DB11EB9A /* SwiftMessages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6D7C699EC267F6DB4592AC73A4F726F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00739C6D33D278CA58BEEF8C23155893 /* Pods-LuckySpin */,
+				32F7787AA30FAE05D8D80B53025BAA89 /* SmoothButton */,
+				2CD84FAAB6802581D257FEA9944CF14B /* SpinWheelControl */,
+				DAB613A18652334F6BFC5F27BADF515D /* SwiftMessages */,
+				93789445511E3FEAB3D09A6F552EEE2D /* SwiftMessages-SwiftMessages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1159572DA8A942EA8021F3FC9D7C78DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22472C802C65E99E49FE455A7320407 /* CardView.xib in Resources */,
+				0F2E9A309881123E2C28F67DCAFCA28C /* CenteredView.xib in Resources */,
+				40BE2A5EC104EF71082BD8E9077900BA /* errorIcon.png in Resources */,
+				353837749C7BFE762872B4FA026623F2 /* errorIcon@2x.png in Resources */,
+				B35339C20384D2C5B91D3BD09BCE38EE /* errorIcon@3x.png in Resources */,
+				4647DAC2BCD3D4C58311B17BC3A7F6A9 /* errorIconLight.png in Resources */,
+				042C4EC9EE12CD6182B53127B8AAE22E /* errorIconLight@2x.png in Resources */,
+				FE10A5F0471A667554940C5803466238 /* errorIconLight@3x.png in Resources */,
+				0638B27AAC33966B15129FE58E56D66C /* errorIconSubtle.png in Resources */,
+				CAC0DBE840B1D9AEEA881E27D16BF587 /* errorIconSubtle@2x.png in Resources */,
+				572CDF968865EC694CC76FAAF3CB5ECF /* errorIconSubtle@3x.png in Resources */,
+				39127ADAFEEDA4EB7E84F9A0B4B5C63E /* infoIcon.png in Resources */,
+				FBB9EE3D1C2AC505F9CB01C6BB1963CD /* infoIcon@2x.png in Resources */,
+				240275F4A9A5785AC537E974499B2339 /* infoIcon@3x.png in Resources */,
+				36EA873966A7472D14343D53E5F85E0C /* infoIconLight.png in Resources */,
+				A0C20F8D585E2D28B76AC4C58A48648C /* infoIconLight@2x.png in Resources */,
+				6F236A5C175E221E6C2AC87338D0A0A9 /* infoIconLight@3x.png in Resources */,
+				EE5352A0A89DB1FCA3FDB05D48F9D5F5 /* infoIconSubtle.png in Resources */,
+				B5E8DCDCF06214BD5FA387D5A07F7FD1 /* infoIconSubtle@2x.png in Resources */,
+				3AC1837968954017D697507D2D25C850 /* infoIconSubtle@3x.png in Resources */,
+				A46640A9EC1A5648D05C2AB00E77BBF1 /* MessageView.xib in Resources */,
+				A3CE28B3773767E5418E7ED3E8121244 /* StatusLine.xib in Resources */,
+				0D44527B0F9AF61327C0432B396F8063 /* successIcon.png in Resources */,
+				684F9E975A43072CA99EAE73D9FE3D1C /* successIcon@2x.png in Resources */,
+				FC819076A011BABA5DF539C3AFF157F1 /* successIcon@3x.png in Resources */,
+				9D9F49118CC893D88155C9AEB3745615 /* successIconLight.png in Resources */,
+				C1DD29D4BF22B0A5B832FA15FE45F96B /* successIconLight@2x.png in Resources */,
+				479E00C7F7917BB29CF1A1FEB0797E6C /* successIconLight@3x.png in Resources */,
+				41781845BEE53B8EFE9C32166B880A2C /* successIconSubtle.png in Resources */,
+				04F155D910A92B5C7BEF5DCDA6A17956 /* successIconSubtle@2x.png in Resources */,
+				FCD75B79F79731ED2CB08BD0C8CBEB5B /* successIconSubtle@3x.png in Resources */,
+				8403B99BD65C0B8DD20D693FF779E79A /* TabView.xib in Resources */,
+				90CE7E8942309F68BDE485545594C9F6 /* warningIcon.png in Resources */,
+				C6AD6A9850C20CDB08773E877731AC5D /* warningIcon@2x.png in Resources */,
+				C86A66B834D6BDB3AE3B8BB7AC7DCE5D /* warningIcon@3x.png in Resources */,
+				AC0C04F3EB77110558307E5A6E99E275 /* warningIconLight.png in Resources */,
+				41679E959CFE72785C1D201060124EB8 /* warningIconLight@2x.png in Resources */,
+				F76DF8AD6FCA777865D5AE21D0DADD13 /* warningIconLight@3x.png in Resources */,
+				762BBE23D3BFD07F5F7FDBB7C5465786 /* warningIconSubtle.png in Resources */,
+				CF3D46DD536CF7A3DEDD445CC78DFF26 /* warningIconSubtle@2x.png in Resources */,
+				D4DA9FCE48BF0EAC464CCD8FB7ADFC31 /* warningIconSubtle@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A59C74D8484FCB330EA2963091F1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7C30120F231B7920B0533E389BDCB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD48635606938C944A02861FD17CDBB5 /* FontAwesome.ttf in Resources */,
+				362C02DD51D9FA86F5ADE3633906F5FC /* Ionicons.ttf in Resources */,
+				B4AFDA182EE8AEB3B7902BB380834657 /* map-icons.ttf in Resources */,
+				A205114942AF1D83357DD493D6C0C070 /* MaterialIcons-Regular.ttf in Resources */,
+				453CEEE47822A61293380C15B9DEF19F /* octicons.ttf in Resources */,
+				D8C89AD1525B719FDDD8FC39947C707A /* open-iconic.ttf in Resources */,
+				436884B6E496DB9969CF399B7D10B7C0 /* SmoothButton.xib in Resources */,
+				77ABB139CDA45B4A50F65D6B4687320E /* themify.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90368FE22DD9DCB8E314F257291DE64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02234EF4D386774C53993BFCFA6F2839 /* SwiftMessages.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D8F691C2344976D1CF8DBFC4382131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B704BB7A54CAD0584E097C37F4E7B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EBBA1DDC0A60DBC0C4D27C7ABB0053C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050403567AD3D3D49E76B0920436CF38 /* AccessibleMessage.swift in Sources */,
+				6DEA65A4779CE53C8E9A9FC9581934F9 /* Animator.swift in Sources */,
+				74F201F1BEC67207EFC6FC4D74B10FB8 /* BackgroundViewable.swift in Sources */,
+				009F22DCED9ADADDCC158409FE8C714B /* BaseView.swift in Sources */,
+				38FE360AA1DC6A82299F2A342F9CA4BE /* CALayer+Utils.swift in Sources */,
+				F6FE097F1F281831DAF4213A2A0E2913 /* CornerRoundingView.swift in Sources */,
+				4F1448FA875EBB4DF4F47B1D30BD333B /* Error.swift in Sources */,
+				224AD37734621C954F896C9937A25B24 /* Identifiable.swift in Sources */,
+				4673B51319641338C5699045157FDD23 /* KeyboardTrackingView.swift in Sources */,
+				B80C5C18D22FD630CAFDB1FE47E02C88 /* MarginAdjustable+Animation.swift in Sources */,
+				A007E4B6512EDA8F22BBBA5B0B804495 /* MarginAdjustable.swift in Sources */,
+				15C27F3D7ABD0F03D9572E0BCFB00DB9 /* MaskingView.swift in Sources */,
+				38FFDE50D01DF212C56D0C4F0E04C9D5 /* MessageView.swift in Sources */,
+				C3713B43E40A7F0E8C3D0F8EA6A7509C /* NSBundle+Utils.swift in Sources */,
+				9D21DA6F3F4BAA65291EC762FAC43202 /* NSLayoutConstraint+Utils.swift in Sources */,
+				19AFA91AB2454A8C915F972D51596A2B /* PassthroughView.swift in Sources */,
+				B5C2A0C3CB90F1FDB69DD1508FD14736 /* PassthroughWindow.swift in Sources */,
+				C51B276B572D6EB31A4B2F31E3905472 /* PhysicsAnimation.swift in Sources */,
+				C417E9E07DC334E63D5AC574B7748955 /* PhysicsPanHandler.swift in Sources */,
+				7DEFA5558371031E33A5BD042A922E81 /* Presenter.swift in Sources */,
+				0751BBE16290E4A0A661F0A5FE83B8A1 /* SwiftMessages-dummy.m in Sources */,
+				1A9FB51C2A810A9A8606A43E83A77A56 /* SwiftMessages.swift in Sources */,
+				A21F3A19E7DF88E6B7FAF2E1BBB69E07 /* SwiftMessagesSegue.swift in Sources */,
+				FA92088F8CC57494A25AB4580A165F51 /* Theme.swift in Sources */,
+				20CC1D0998042F56418BB775D16907EB /* TopBottomAnimation.swift in Sources */,
+				04CA983FAECC569B52472CC21E42D0F3 /* UIEdgeInsets+Utils.swift in Sources */,
+				0014CCA4BCD59DF096EAF80A084EFAB6 /* UIViewController+Utils.swift in Sources */,
+				E93D76D9EE36E44CEC7429F3B608BA34 /* Weak.swift in Sources */,
+				C770C7A6A0281ABEC0A89119D6D6A51D /* WindowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA09E34C66926F03EBD1D2D79C80750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96BBC05F0BDBA636294BEC195EFE60D /* Pods-LuckySpin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ED8114C5B6FDBAA7B66C52342C6ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B244D06AF5DF7088463BA62DE2F8EDF /* Degrees+MathMethods.swift in Sources */,
+				2EE909BCCB6BDD9DBB50F008815E27E4 /* SpinWheelControl-dummy.m in Sources */,
+				A0E7171E10042FE2792166BE717F027B /* SpinWheelControl.swift in Sources */,
+				01F83BDA37A1B54686FBAE19030D9D0E /* SpinWheelControlDataSource.swift in Sources */,
+				D1D2E9A21002BA3C2F8982F0A067D9FC /* SpinWheelControlDelegate.swift in Sources */,
+				8D982335D1855A5843871C15BF8EA153 /* SpinWheelWedge.swift in Sources */,
+				EB3263F5FBA5D99014FD653518681556 /* SpinWheelWedgeLabel.swift in Sources */,
+				2012E9D8CEA75686ACA58716CF99B0BB /* SpinWheelWedgeShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14FFA0E66578AFB1C8F40256BCEE281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F540890FB78FA88968F802D63D64BA /* FontAwesome.swift in Sources */,
+				B2C9327A5CB29B9E779F5C3236AD4C0B /* FontLoader.swift in Sources */,
+				F129C8182927385DC8D67094C446ED7F /* Iconic.swift in Sources */,
+				13120C8D943C52EA79A2598772EE98B3 /* IonIcons.swift in Sources */,
+				5B08BDF68B8691F6FEB1AC0FAFF2A2D1 /* MapIcon.swift in Sources */,
+				C4DCE65C540F0F527AEDE5069BC68CCE /* MaterialIcon.swift in Sources */,
+				0985F2F7AB7CF7B0D1423894FF30EC07 /* Octicon.swift in Sources */,
+				11DCB65A6D716DC7205C4B52231C46F0 /* SmoothButton-dummy.m in Sources */,
+				C8618074D5FD374E38C57FA5F7AB31AF /* SmoothButton.swift in Sources */,
+				B462CEB00CBD652FC06DA46CC64DAD0F /* SwiftIconFont.swift in Sources */,
+				073D52B4F0BF06365DD903C8BBC6CC3D /* SwiftIconLabel.swift in Sources */,
+				0258CD3FCD5A08380C732108FACD31EC /* ThemifyIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FA5E5BFC1E32F0A0104C8B884B325E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmoothButton;
+			target = 32F7787AA30FAE05D8D80B53025BAA89 /* SmoothButton */;
+			targetProxy = 5000D082E83119663D9097B036FA13C3 /* PBXContainerItemProxy */;
+		};
+		3E803F80C2B3CEB105070E16BDC48F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessages;
+			target = DAB613A18652334F6BFC5F27BADF515D /* SwiftMessages */;
+			targetProxy = D05394E792F3D0CADFC884D77D8A0654 /* PBXContainerItemProxy */;
+		};
+		44B5F78B10376D2A5F8CD1EA1AAEC898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftMessages-SwiftMessages";
+			target = 93789445511E3FEAB3D09A6F552EEE2D /* SwiftMessages-SwiftMessages */;
+			targetProxy = A85706F344E91DAB64F3378841628B4F /* PBXContainerItemProxy */;
+		};
+		9B66B8C87F50242944FD39EF87186102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpinWheelControl;
+			target = 2CD84FAAB6802581D257FEA9944CF14B /* SpinWheelControl */;
+			targetProxy = ADDF625C5C8999BE9C25C1170EE23684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		058DB9C4BD290F7CDEC41A6687184EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F3C130D5E0F9FD2CEBD92E500B3A6B /* SwiftMessages.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				IBSC_MODULE = SwiftMessages;
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		23F65327AE8A70BEEF4076F4C581F0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83476015E15B4FD9A74A722D71872037 /* SmoothButton.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmoothButton/SmoothButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmoothButton/SmoothButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmoothButton/SmoothButton.modulemap";
+				PRODUCT_MODULE_NAME = SmoothButton;
+				PRODUCT_NAME = SmoothButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AA89AA9D0B0845843EDCC1EAAF90C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F3C130D5E0F9FD2CEBD92E500B3A6B /* SwiftMessages.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/SwiftMessages-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				PRODUCT_MODULE_NAME = SwiftMessages;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40A8D4033BD72A1637F36BA9941A5C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5177E1953455B25A8FD4B583C1A4BC85 /* SpinWheelControl.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpinWheelControl/SpinWheelControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinWheelControl/SpinWheelControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpinWheelControl/SpinWheelControl.modulemap";
+				PRODUCT_MODULE_NAME = SpinWheelControl;
+				PRODUCT_NAME = SpinWheelControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AFC01D62410228DC84E24BC3C5C7B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809A09678872240A47A0952D3F15C4D5 /* SwiftMessages.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/SwiftMessages-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				PRODUCT_MODULE_NAME = SwiftMessages;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D6E993E2AF48F5211485A255B77C6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809A09678872240A47A0952D3F15C4D5 /* SwiftMessages.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				IBSC_MODULE = SwiftMessages;
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7396A6C8001ACA8B03C99E31FB0622AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C9CB293EE4B7A84B3A8E1B1B4FC475 /* SmoothButton.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmoothButton/SmoothButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmoothButton/SmoothButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmoothButton/SmoothButton.modulemap";
+				PRODUCT_MODULE_NAME = SmoothButton;
+				PRODUCT_NAME = SmoothButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E00ED4DDED6165DAC6ADF49ED6C27D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831113F7A83C7082578F527D3FDF58F8 /* Pods-LuckySpin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckySpin/Pods-LuckySpin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckySpin/Pods-LuckySpin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A03DD8950F9B56CDDAF5FD37325BCADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0BD6EAD909DC89B2667851427EA5BFF /* Pods-LuckySpin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckySpin/Pods-LuckySpin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckySpin/Pods-LuckySpin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA563A8100360E5DBE4E021B75FE505E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258347EC209FDFB695C24B7C0313C2AD /* SpinWheelControl.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpinWheelControl/SpinWheelControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinWheelControl/SpinWheelControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpinWheelControl/SpinWheelControl.modulemap";
+				PRODUCT_MODULE_NAME = SpinWheelControl;
+				PRODUCT_NAME = SpinWheelControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0233809BD28290F179E6266B23990BE6 /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058DB9C4BD290F7CDEC41A6687184EC0 /* Debug */,
+				6D6E993E2AF48F5211485A255B77C6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35206C40F24FB17777A13CE43643A6E0 /* Build configuration list for PBXNativeTarget "Pods-LuckySpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E00ED4DDED6165DAC6ADF49ED6C27D3 /* Debug */,
+				A03DD8950F9B56CDDAF5FD37325BCADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F82159F75FE48B2FEBC99D3398C4C02 /* Build configuration list for PBXNativeTarget "SpinWheelControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A8D4033BD72A1637F36BA9941A5C1A /* Debug */,
+				DA563A8100360E5DBE4E021B75FE505E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8492854BCA1C03046F19C709EA197E26 /* Build configuration list for PBXNativeTarget "SmoothButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396A6C8001ACA8B03C99E31FB0622AC /* Debug */,
+				23F65327AE8A70BEEF4076F4C581F0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B468164FB97E8A290B9B77CF2BA18546 /* Build configuration list for PBXNativeTarget "SwiftMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA89AA9D0B0845843EDCC1EAAF90C71 /* Debug */,
+				5AFC01D62410228DC84E24BC3C5C7B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

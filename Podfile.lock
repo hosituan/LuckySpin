@@ -1,0 +1,26 @@
+PODS:
+  - SmoothButton (0.0.3)
+  - SpinWheelControl (0.2.0)
+  - SwiftMessages (8.0.0):
+    - SwiftMessages/App (= 8.0.0)
+  - SwiftMessages/App (8.0.0)
+
+DEPENDENCIES:
+  - SmoothButton
+  - SpinWheelControl
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - SmoothButton
+    - SpinWheelControl
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  SmoothButton: 993d5d9c80828754adac8444586fb06f392d5298
+  SpinWheelControl: f6e828dfe1a53e982cc3e2e1824c668c99286a9b
+  SwiftMessages: 29e7975b1173fd4e8357600c6518b5a59bc607d6
+
+PODFILE CHECKSUM: beabb78911aba08d6034e618d3b80f31ae7ba085
+
+COCOAPODS: 1.9.3
