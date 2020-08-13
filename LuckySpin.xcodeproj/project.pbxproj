@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91E77A4280975CAB16BE4503 /* Pods_LuckySpin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5C2A5653A2CEA25BFD6A67 /* Pods_LuckySpin.framework */; };
 		FBC87C6724DC63200044DA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC87C6624DC63200044DA8E /* AppDelegate.swift */; };
 		FBC87C6924DC63200044DA8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC87C6824DC63200044DA8E /* SceneDelegate.swift */; };
 		FBC87C6B24DC63200044DA8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC87C6A24DC63200044DA8E /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3CC586C3ACFC309BC96077E /* Pods-LuckySpin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckySpin.debug.xcconfig"; path = "Target Support Files/Pods-LuckySpin/Pods-LuckySpin.debug.xcconfig"; sourceTree = "<group>"; };
+		CC5C2A5653A2CEA25BFD6A67 /* Pods_LuckySpin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckySpin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F505B0153E044443C3E79FC5 /* Pods-LuckySpin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckySpin.release.xcconfig"; path = "Target Support Files/Pods-LuckySpin/Pods-LuckySpin.release.xcconfig"; sourceTree = "<group>"; };
 		FBC87C6324DC63200044DA8E /* LuckySpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckySpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC87C6624DC63200044DA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC87C6824DC63200044DA8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E77A4280975CAB16BE4503 /* Pods_LuckySpin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D0CE4AF9E4970CEACEC027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC586C3ACFC309BC96077E /* Pods-LuckySpin.debug.xcconfig */,
+				F505B0153E044443C3E79FC5 /* Pods-LuckySpin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFFBD92399B12D1F1CED6FBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC5C2A5653A2CEA25BFD6A67 /* Pods_LuckySpin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB8F5A8424DDC5A500DE1E5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FBC87C6A24DC63200044DA8E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB8F5A8624DDC5B900DE1E5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBC87C6C24DC63200044DA8E /* Main.storyboard */,
+				FBC87C7124DC63200044DA8E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB8F5A8824DDC83500DE1E5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FBC87C5A24DC63200044DA8E = {
 			isa = PBXGroup;
 			children = (
 				FBC87C6524DC63200044DA8E /* LuckySpin */,
 				FBC87C6424DC63200044DA8E /* Products */,
+				67D0CE4AF9E4970CEACEC027 /* Pods */,
+				BFFBD92399B12D1F1CED6FBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +104,12 @@
 		FBC87C6524DC63200044DA8E /* LuckySpin */ = {
 			isa = PBXGroup;
 			children = (
+				FB8F5A8824DDC83500DE1E5B /* Model */,
+				FB8F5A8624DDC5B900DE1E5B /* View */,
+				FB8F5A8424DDC5A500DE1E5B /* Controller */,
 				FBC87C6624DC63200044DA8E /* AppDelegate.swift */,
 				FBC87C6824DC63200044DA8E /* SceneDelegate.swift */,
-				FBC87C6A24DC63200044DA8E /* ViewController.swift */,
-				FBC87C6C24DC63200044DA8E /* Main.storyboard */,
 				FBC87C6F24DC63200044DA8E /* Assets.xcassets */,
-				FBC87C7124DC63200044DA8E /* LaunchScreen.storyboard */,
 				FBC87C7424DC63200044DA8E /* Info.plist */,
 			);
 			path = LuckySpin;
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBC87C7724DC63200044DA8E /* Build configuration list for PBXNativeTarget "LuckySpin" */;
 			buildPhases = (
+				211616949E2AE5D5A59416E5 /* [CP] Check Pods Manifest.lock */,
 				FBC87C5F24DC63200044DA8E /* Sources */,
 				FBC87C6024DC63200044DA8E /* Frameworks */,
 				FBC87C6124DC63200044DA8E /* Resources */,
+				3E43D79D215ADA9CC75C6B56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +182,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		211616949E2AE5D5A59416E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckySpin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E43D79D215ADA9CC75C6B56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckySpin/Pods-LuckySpin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckySpin/Pods-LuckySpin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckySpin/Pods-LuckySpin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBC87C5F24DC63200044DA8E /* Sources */ = {
@@ -282,6 +374,7 @@
 		};
 		FBC87C7824DC63200044DA8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CC586C3ACFC309BC96077E /* Pods-LuckySpin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +392,7 @@
 		};
 		FBC87C7924DC63200044DA8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F505B0153E044443C3E79FC5 /* Pods-LuckySpin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
